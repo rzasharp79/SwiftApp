@@ -18,10 +18,10 @@ class ViewController: UIViewController {
         tapCount += 1
         print(tapCount)
         
-        if tapCount < 10 {
+        if tapCount < 20 {
             coolLabel.text = "Button Pressed"
         } else {
-            coolLabel.text = "You have pushed the button 10 times!"
+            coolLabel.text = "You have pushed the button 20 times!"
         }
     }
     
